@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python NSU-ML/Iris/train.py
+python train.py
