@@ -18,9 +18,11 @@ def train_models(config):
     # Обучение линейной регрессии
     linear_model = create_linear_model()
     linear_model.fit(X_train, y_train)
-
+    print("Uspekh")
+    
     # Обучение логистической регрессии
     logistic_model = create_logistic_model(
         config["random_state"], config["C"], config["solver"]
     )
     logistic_model.fit(X_train, y_train)
+    print("Uspekh")
