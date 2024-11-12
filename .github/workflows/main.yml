@@ -18,4 +18,4 @@ jobs:
       - name: Install dependencies
         run: pip install -r ./Iris/requirements.txt
       - name: Run training script
-        run: bash ./Iris/run.sh 
+        run: bash ./Iris/run.sh
