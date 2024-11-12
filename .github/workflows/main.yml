@@ -16,6 +16,6 @@ jobs:
         with:
           python-version: 3.8
       - name: Install dependencies
-        run: pip install -r NSU-ML/Iris/requirements.txt
+        run: pip install -r /Iris/requirements.txt
       - name: Run training script
-        run: bash NSU-ML/Iris/run.sh 
+        run: bash /Iris/run.sh 
